@@ -1,0 +1,7 @@
+{%extends "base.html"%}
+{% block content %}
+{% for key,value in results %}
+<h2> {{key}}</h2>
+<p> {{value}}</p>
+{% endfor %}
+{% endblock %}

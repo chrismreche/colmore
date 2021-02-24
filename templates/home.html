@@ -1,0 +1,9 @@
+{%extends "base.html"%}
+{% block content %}
+<form action="/search" method = "POST">
+    {% if title %}
+    <h2>{{ title }}</h2>
+    {% endif %}
+    <p>{{ desc }} <input type = "text" name = {{ name }} /> <input type = "submit" value = "submit" /></p>
+</form>
+{% endblock %}

@@ -1,0 +1,12 @@
+{%extends "base.html"%}
+{% block content %}
+<h2>{{ name }} ( {{ symbol_id }} )</h2>
+<p> Please chose one of the following actions :</p>
+<ul>
+    <li><a href="/details">additional details in grid</a></li>
+    <li><a href="/timeframes">historical prices on specific timeframes</a></li>
+    <li><a href="/quote">current quote</a></li>
+    <li><a href="/indicator"> indicator results for it in grid</a></li>
+</ul>
+
+{% endblock %}

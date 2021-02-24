@@ -1,0 +1,36 @@
+table
+{
+	font-size: 16px;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid black;
+	box-shadow: 5px 5px 10px rgb(100, 100, 100);
+}
+tbody
+{
+	margin: 0px;
+   padding: 0px;
+   border: 0px;
+}
+th
+{
+	text-align: center;
+	border: 1px solid black;
+	background-color: rgba(200, 200, 200, 0.6);
+	background-image: linear-gradient(rgba(250, 250, 250, 1), rgba(150, 150, 150, 1), rgba(200, 200, 210, 1), rgba(250, 250, 255, 1));
+	margin: 0px;
+}
+td
+{
+	text-align: center;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 0px;
+}
+tr
+{
+	margin: 0px;
+	padding: 0px;
+}
