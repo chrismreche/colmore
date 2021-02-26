@@ -1,3 +1,74 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(242, 242, 242);
+    color: black;
+}
+nav
+{
+    position: fixed;
+    float: left;
+    height: 1.5cm;
+    width: 100%;
+    /*background-color: rgb(180, 180, 180);*/
+    background-color: rgb(0, 83, 139);
+    /*background: linear-gradient(rgba(250, 250, 250, 1.0), rgba(170, 170, 170, 1.0));*/
+    /*transition: box-shadow 0.3s linear;*/
+    /*margin-bottom: 5px;*/
+	box-shadow: 5px 5px 10px rgb(100, 100, 100);
+}
+nav ul
+{
+    /*position: relative;*/
+    list-style-type: none;
+    float: left;
+    width: 50%;
+    /*border: 1px solid red;*/
+    /*height: 30px;*/
+    /*width: 100%;*/
+}
+nav li
+{
+    display: inline-block;
+    /*border: 1px solid black;*/
+    font-size: 0.4cm;
+    color: white;
+    float: bottom;
+}
+#header
+{
+    background-color: rgb(0, 83, 139);
+}
+#logo
+{
+    height: 1cm;
+    color: white;
+    margin-left: 50px;
+    margin-top: 8px;
+}
+#logout
+{
+    float: right;
+    color: white;
+    margin-right: 50px;
+    margin-top: 17px
+}
+#content
+{
+    margin-top: 40px;
+    width: 80%;
+    display: block;
+    margin-left: 10%;
+    /*margin-right: auto;*/
+    margin-bottom: 20px;
+    /*border: 1px solid red;*/
+}
 table
 {
 	font-size: 16px;
@@ -14,12 +85,13 @@ tbody
    padding: 0px;
    border: 0px;
 }
+
 th
 {
 	text-align: center;
 	border: 1px solid black;
 	background-color: rgba(200, 200, 200, 0.6);
-	background-image: linear-gradient(rgba(250, 250, 250, 1), rgba(150, 150, 150, 1), rgba(200, 200, 210, 1), rgba(250, 250, 255, 1));
+	background-image: linear-gradient(rgba(250, 250, 250, 1), rgba(150, 150, 150, 0.5), rgba(200, 200, 210, 0.5), rgba(250, 250, 255, 1));
 	margin: 0px;
 }
 td
@@ -33,4 +105,27 @@ tr
 {
 	margin: 0px;
 	padding: 0px;
+}
+tr:hover
+{
+	/*border: 1px solid blue;*/
+	background-color: rgba(255, 100, 100, 1);
+	/*background-image: linear-gradient(rgba(200, 200, 255, 0.7), rgba(0, 0, 100, 0.7));*/
+	/*background-image: linear-gradient(rgba(215, 215, 255, 1), rgba(70, 70, 145, 1)); VALID ONE */
+	/*background-image: linear-gradient(rgba(200, 200, 250, 1), rgba(50, 80, 155, 1), rgba(50, 90, 175, 1), rgba(50, 120, 230, 1)); BLUE*/
+	/*background-image: linear-gradient(rgba(250, 200, 200, 1), rgba(155, 80, 50, 1), rgba(155, 80, 20, 1), rgba(230, 100, 50, 1));ORANGE */
+	/*background-image: linear-gradient(rgba(250, 200, 200, 1), rgba(145, 0, 0, 1), rgba(175, 10, 10, 1), rgba(250, 20, 20, 1)); RED */
+	background-image: linear-gradient(rgba(200, 200, 250, 1), rgba(150, 190, 185, 1), rgba(150, 210, 255, 1), rgba(150, 220, 230, 1));
+	color: black;
+	box-shadow: 5px 5px 20px rgb(0, 50, 50); /*rgba(50, 80, 155, 1);*/
+	text-shadow: 5px 5px 8px rgb(0, 0, 0);
+}
+.trhova:hover
+{
+	color: white;
+	font-weight: bold;
+}
+a:hover
+{
+	font-style: italic;
 }
