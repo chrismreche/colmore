@@ -1,12 +1,16 @@
 {%extends "base.html"%}
 {% block content %}
 <h2>{{ name }} ( {{ symbol_id }} )</h2>
+<br>
+<br>
 <p> Please chose one of the following actions :</p>
+<br>
 <ul>
-    <li><a href="/details">additional details in grid</a></li>
-    <li><a href="/timeframes">historical prices on specific timeframes</a></li>
-    <li><a href="/quote">current quote</a></li>
-    <li><a href="/indicator"> indicator results for it in grid</a></li>
+    <li><a href="/details">Additional details</a></li>
+    <li><a href="/timeframes">Historical prices</a></li>
+    <li><a href="/quote">Current quote</a></li>
+    <li><a href="/indicator">Indicator results</a></li>
+    <li><a href="/symbols_found" style="color: red">Back to Search Results</a></li>
 </ul>
 
 {% endblock %}
